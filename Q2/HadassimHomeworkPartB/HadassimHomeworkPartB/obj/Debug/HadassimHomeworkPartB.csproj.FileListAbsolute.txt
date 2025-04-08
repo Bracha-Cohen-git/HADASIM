@@ -1,0 +1,13 @@
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\bin\Debug\HadassimHomeworkPartB.exe.config
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\bin\Debug\HadassimHomeworkPartB.exe
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\bin\Debug\HadassimHomeworkPartB.pdb
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\bin\Debug\System.Data.SqlClient.dll
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\bin\Debug\System.Data.SqlClient.xml
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\obj\Debug\HadassimHomeworkPartB.csproj.AssemblyReference.cache
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\obj\Debug\HadassimHomeworkPartB.Form1.resources
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\obj\Debug\HadassimHomeworkPartB.Properties.Resources.resources
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\obj\Debug\HadassimHomeworkPartB.csproj.GenerateResource.cache
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\obj\Debug\HadassimHomeworkPartB.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\obj\Debug\HadassimHomeworkPartB.csproj.CopyComplete
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\obj\Debug\HadassimHomeworkPartB.exe
+C:\Users\1\Documents\Visual Studio 2019\HadassimHomeworkPartB\HadassimHomeworkPartB\obj\Debug\HadassimHomeworkPartB.pdb

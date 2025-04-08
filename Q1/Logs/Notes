@@ -1,0 +1,27 @@
+סעיף א'
+משימה 1 --> def file_splitting(input_file, num_of_lines):
+משימה 2 --> def count_file_errors(file_path):
+משימה 3 --> def count_all_files_errors(folder):
+משימה 4 --> def main():
+
+
+משימה 5:
+
+Time complexity analysis:
+def file_splitting(input_file, num_of_lines): Reading and writing each line once - O(m) where m is the number of lines in the original file.
+def count_file_errors(file_path): Reading each line once O(k) where k is the number of lines in a single output file (and other trivial operations)
+def count_all_files_errors(folder): O(m) where m is the number of lines in the original file,
+the function calls the previous function for each output file, and the sum of all lines in all output files is equal to the number of lines in the original file.
+def main(): Calling the file_splitting function - O(m)
+Calling the count_all_files_errors function - O(m)
+Finding the N most common error codes - O(N log E) where E is the number of unique error codes. Use Counter.most_common(N), which works with Heap Sort, and extract the N largest values.
+Therefore, the overall time complexity is O(m + N log E).
+(I did not include a list of all the unique error codes that Counter generates because it is negligible compared to O(m) because the number of errors is less than or equal to the number of rows)
+
+
+Space complexity analysis:
+def file_splitting(input_file, num_of_lines): Store num_of_lines lines in memory before writing - O(m) where m is the number of lines in each output file.
+def count_file_errors(file_path): Use a Counter containing e unique error codes in the file O(e).
+def count_all_files_errors(folder): Is O(E) where E is the number of unique error codes in all files together.
+def main(): The upper bound of the complexity of the previous algorithms is O(max(m, E)) where m is the number of lines in each output file, and E is the number of unique error codes.
+Therefore, the overall space complexity is O(max(m, E)).

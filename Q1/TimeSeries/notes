@@ -1,0 +1,22 @@
+סעיף ב'
+1א + ב --> timeSeries.py
+2 --> splittingTimeSeries.py
+3 --> notes
+4--> splittingTimeSeries.py + notes
+
+
+
+Question 3
+If the data arrives as a stream, the hourly averages must be continuously updated because each new input can impact the calculation.
+The solution would look like this:
+A dictionary where the key represents the hour, and the value is a list of all the values received for that hour.
+Whenever a new value is received, it is added to the corresponding hour in the dictionary, and the hourly average is updated.
+
+
+
+Question 4
+Parquet format is a compressed and efficient columnar format for storing data, and is therefore good for working with large amounts of data.
+Unlike CSV, it allows for fast loading of only specific columns instead of reading all rows and columns, which saves time and resources.
+In addition, it maintains a type structure for each column (such as numbers and dates), which streamlines processing processes.
+Another advantage is its compatibility with modern tools such as Spark, Hive, AWS Athena, and Pandas, which makes it easy to integrate into advanced data systems.
+Parquet offers improved performance and lower memory consumption compared to CSV, especially when managing and analyzing large volumes of data.
